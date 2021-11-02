@@ -8,14 +8,14 @@ function Header() {
     const[isOpen, setIsOpen] = useState(true);
     return (
          <div className="header">
-             <div className="logo">Luke Fowles</div>
+             {/* <div className="logo">Luke Fowles</div> */}
              <div className="menu">
                  <div className = "webMenu">
                      <Web />
                  </div>
                 <div className = "mobileMenu">
                     <div onClick = {() => setIsOpen(!isOpen)}>
-                        <i class="fi fi-sr-apps menIcon"></i>
+                        <i class="fi fi-sr-apps menu-Icon"></i>
                     </div>
                     {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen}/>}
                 </div>
