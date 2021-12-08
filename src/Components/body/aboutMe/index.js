@@ -4,8 +4,12 @@ import './aboutMe.css'
 function AboutMe() {
     return (
         <div className='about'>
-            <h1>LUKE FOWLES</h1>
-            <p>Hello, my name is Luke Fowles and this is my bio</p>
+            <div className ='about-name'>
+            <br/>LUKE FOWLES<br/>
+            </div>
+            <div className = 'about-info'>
+            Hello, my name is Luke Fowles and this is an example of where my bio would go
+            </div>
         </div>
     )
 }

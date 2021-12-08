@@ -2,13 +2,17 @@ import React, {useState} from 'react'
 import './header.css'
 import Web from './web/index'
 import Mobile from './mobile/index'
+import Github from '../contactIcons/github';
+import Linkedin from '../contactIcons/linkedin';
 
 function Header() {
     //React hook so that app menu only shows when not clicked
     const[isOpen, setIsOpen] = useState(true);
     return (
          <div className="header">
-             {/* <div className="logo">Luke Fowles</div> */}
+              <Github/>
+              <Linkedin/>
+             {/* {<div className="logo">Luke Fowles</div>} */}
              <div className="menu">
                  <div className = "webMenu">
                      <Web />

@@ -1,5 +1,9 @@
 .body {
-    padding: 12px;
     padding-bottom: 36px;
-    
+    width: 90%;
 }
+
+#aboutMe {
+    width: 100%;
+}
+

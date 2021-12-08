@@ -6,7 +6,7 @@ import AboutMe from './aboutMe'
 
 function Body() {
     return (
-        <div>
+        <div className="body">
             <section id = 'aboutMe'>
                 <AboutMe>
                 </AboutMe>
